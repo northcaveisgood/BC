@@ -4,7 +4,6 @@ const client = new Discord.Client();
 
 
 
-client.login('NTM5NzY5OTg3NzgzNzIwOTcw.DzHLhQ.hV_IZWqB2E6FdjtI1JhafjZ2QKM'); 
 
 
 
@@ -66,3 +65,5 @@ message.author.send("" + `  **
     }
 });     
 
+
+client.login(process.env.BOT_TOKEN);//لا تفير فيها شي
